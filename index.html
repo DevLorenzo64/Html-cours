@@ -1,0 +1,142 @@
+<!-- On commence toujours par le doctype html -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <!-- Commentaire du code, il faut faire controle + slash -->
+    <!-- Titre du cours -->
+    <title>Je veux devenir DEV</title>
+    <!-- Icone de l'onglet -->
+    <link rel="shortcut icon" href="LOGO-html.png" </head>
+
+<body>
+    <header>
+        <div>
+            <h1><span>&#8482;</span>texte</h1>
+            <p>Texte basique mais stylé <em>texte en italique haha</em>
+                <strong>et la c gras mdr comme moi</strong>
+                <span>l'element en span ne revient pas à la ligne</span>
+            </p>
+            <!--  le lorem Sert a simuler du texte avant de lancer le site et de faire ses paragrphes -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur amet vitae praesentium sed eum
+                velit, officia eos porro eligendi, illum hic quo consectetur! Nesciunt, ullam quae. Eveniet, minima?
+                Pariatur.</p>
+    </header>
+    <section>
+        <!-- de h1 (chaque page doit avoir qu'un seul h1) à h6 c'est les tailles de titre -->
+
+        </div>
+        <div>
+            <h2>photo</h2>
+            <img src="naruto.jpg" height="200" alt="image naruto">
+        </div>
+        <div>
+            <h3>Les listes</h3>
+            <ul>
+                <!-- CTRL + Z pour annuler une action -->
+                <li>UL= unordered list</li>
+                <li>UL= unordered list</li>
+                <li>UL= unordered list</li>
+            </ul>
+            <ol>
+                <li>OL=ordered list</li>
+                <li>OL=ordered list</li>
+                <li>OL=ordered list</li>
+            </ol>
+        </div>
+        <div>
+            <h4>Les tableaux</h4>
+            <table border="1" width="50%">
+                <!-- Légende -->
+                <caption>population d'europe</caption>
+                <!-- en tête -->
+                <thead>
+                    <tr>
+                        <th>pays</th>
+                        <th>population</th>
+                    </tr>
+                </thead>
+                <!-- corps du tableau -->
+                <tbody>
+                    <tr>
+                        <td>France</td>
+                        <td>66M</td>
+                    </tr>
+                    <tr>
+                        <td>Allemagne</td>
+                        <td>54M</td>
+                    </tr>
+                    <tr>
+                        <td>Italie</td>
+                        <td>43M</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h5> Liens</h5>
+            <a href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal" target="_blank">Londres la ville
+                des devs</a>
+            <br>
+            <!-- Les cheatsheet regroupent tout ce qui est utile dans un langague de programation -->
+            <a href="https://htmlcheatsheet.com/" target="_blank"> Je veux tricher un peu</a>
+            <br>
+            <a href="https://www.toptal.com/designers/htmlarrows/symbols/" target="_blank"> Icone en HTML</a>
+
+        </div>
+        <div>
+            <h6>Intégrer une vidéo</h6>
+            <video src="japon video html.mp4" height="500" autoplay loop muted></video>
+        </div>
+  </section>
+  <br>
+  <!-- formulaire -->
+  <section>
+  <h2>Formulaire</h2>
+  <form action="/action.php" method="post"> <label for="name">NOM
+  </label><input id="name" type="text" placeholder="Entrez votre nom"><br>
+  <label for="age">age</label>
+  <input id="age" type="number" min="0" max="99" step="1" value="18"><br>
+
+  <!-- Input select -->
+<label for="gender">Genre</label>
+<select name="Genre" id="gender">
+<option value="homme">homme</option>
+<option selected value="femme">femme</option>
+<option value="ne se prononce pas">ne se prononce pas</option>
+</select><br>
+
+<!-- input radio -->
+<div>
+<input type="radio" name="type" id="human">
+<label for="human">Humain</label>
+
+<input type="radio" name="type" checked id="dog">
+<label for="dog">chien</label>
+
+<input type="radio" name="type" id="cat">
+<label for="cat">chat</label>
+</div>
+
+<textarea cols="30" rows="10" placeholder="Entrez votre demande"></textarea> <br>
+
+<!-- input checkbox -->
+<label><input type="checkbox">Accepter les CGV</label> <br>
+<input type="submit" value="Valider"> 
+<br>
+<!-- mail et envoi de fichiers -->
+<footer>
+    <a href="mailto:caca@gmail.sese"> write me a word</a>
+    <br>
+    <a href="notice.txt" download="nom-du-fichier">télécharger la notice</a>
+</footer>
+</form>
+</section>
+
+
+</body>
+<!-- ctrl + save pour sauvgarder à chaque fois -->
+
+</html>
